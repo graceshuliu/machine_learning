@@ -6,7 +6,7 @@ from sklearn.cluster import KMeans
 
 
 
-data = pd.read_csv('2019_castle_hills_multi_label.csv', low_memory=False)
+data = pd.read_csv('datasets/2019_castle_hills_multi_label.csv', low_memory=False)
 
 print(data.columns)
 
